@@ -1,8 +1,15 @@
 aid: elementary
 name: Elementary
-description: 'Elementary is a company surfaced as a portfolio company of threshold-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Elementary is an AI-powered machine-vision inspection company for manufacturing,
+  founded in 2017 in South Pasadena, California (originally Elementary Robotics). Its
+  VisionStream self-training edge AI detects production defects in seconds without
+  rules, labeling, or tuning, while the QualityOS cloud platform delivers traceability,
+  analytics, and MES/ERP integration across production lines. Elementary inspects over
+  one billion parts annually for Fortune 500 manufacturers across food & beverage,
+  automotive, consumer packaged goods, electronics, and life sciences, and is backed
+  by Rockwell Automation, Tiger Global, Toyota Ventures, Threshold Ventures, Fika Ventures,
+  and Idealab. The company exposes no public developer API; this profile captures its
+  identity, security posture, and public web properties.'
 url: https://raw.githubusercontent.com/api-evangelist/elementary/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - threshold-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.elementaryml.com/og-image-001.webp
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai
+- Machine Vision
+- Computer Vision
+- Manufacturing
+- Quality Inspection
+- Industrial Automation
+- Defect Detection
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/elementary-domain-security.yml
 - type: Website
   url: https://www.elementaryml.com/
+- type: About
+  url: https://www.elementaryml.com/about
+- type: Blog
+  url: https://www.elementaryml.com/blog
+- type: Support
+  url: https://elementarymlsupport.zendesk.com/
+- type: HelpCenter
+  url: https://elementarymlsupport.zendesk.com/
+- type: PrivacyPolicy
+  url: https://www.elementaryml.com/privacy-policy
+- type: Partners
+  url: https://www.elementaryml.com/partners
+- type: Careers
+  url: https://elementary.bamboohr.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/elementary-ml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
