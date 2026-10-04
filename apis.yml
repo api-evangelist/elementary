@@ -47,7 +47,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine Vision
-- Computer-Vision
+- Computer Vision
 - Manufacturing
 - Quality Inspection
 - Industrial Automation
@@ -61,6 +61,7 @@ tags_raw:
 - Quality Inspection
 - Industrial Automation
 - Defect Detection
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
